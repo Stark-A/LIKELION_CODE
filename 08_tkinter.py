@@ -24,7 +24,9 @@ def click(event=None):
         def_word1 = dat.loc[dat['용어'] == word, '분류'].values[0]
         def_word2 = dat.loc[dat['용어'] == word, '설명'].values[0]
     except:
-        def_word = "단어의 뜻을 찾을 수 없습니다."
+        def_word = "구분을 찾을 수 없습니다."
+        def_word1 = "분류를 찾을 수 없습니다."
+        def_word2 = "설명을 찾을 수 없습니다."
         # dat = window_add(dat)
 
     dv_output.insert(END, def_word)
@@ -58,10 +60,10 @@ mean_label.grid(row=7, column=0,sticky=W)
 
 # 05 텍스트 박스 입력 상자
 # columnspan=2 는  (4,0~(4,1) 위치까지 분포
-dv_output = Text(window, width=20, height=1, wrap=WORD, background="light green")
+dv_output = Text(window, width=30, height=1, wrap=WORD, background="light green")
 dv_output.grid(row=4, column=0, columnspan=2, sticky=W)
 
-cf_output = Text(window, width=20, height=1, wrap=WORD, background="light green")
+cf_output = Text(window, width=30, height=1, wrap=WORD, background="light green")
 cf_output.grid(row=6, column=0, columnspan=2, sticky=W)
 
 mean_output = Text(window, width=50, height=6, wrap=WORD, background="light green")
