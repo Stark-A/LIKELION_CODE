@@ -1,6 +1,9 @@
 # Repository name : LIKELION_CODE / Practice
 
 ## 실습하기
+* selenium
+* BeautifulSoup
+* 크롤링
 
 ### 폴더명
 | 폴더명 | 날짜 | 설명 |
