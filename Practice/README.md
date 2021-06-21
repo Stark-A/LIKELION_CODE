@@ -1,4 +1,4 @@
-# Repository name : LIKELION_CODE / Practice
+# LIKELION_CODE / Practice
 
 ## 실습하기
 * selenium
