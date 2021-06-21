@@ -1,8 +1,12 @@
-# Repository name : LIKELION_CODE
+# Repository name : LIKELION_CODE / Practice
 
-### 소스 코드
-| 파일명 | code(.html) | 설명 |
+## 실습하기
+* selenium
+* BeautifulSoup
+* 크롤링
+
+### 폴더명
+| 폴더명 | 날짜 | 설명 |
 |------  |---          |---   |
-|test.py |test.py | test |
-|08_tkinter.py |08_tkinter.py | tkinter를 이용하여 용어사전 프로그램 만들기 |
-|한국산업은행_금융 관련 용어_20151231.csv |한국산업은행_금융 관련 용어_20151231.csv | 한국산업은행 금융 관련 용어 csv 파일 |
+|21.06.18 |2021.06.18 | selenium BeautifulSoup를 사용하여 영화 정보 가져오기 |
+|21.06.21 |2021.06.21 | selenium BeautifulSoup를 사용하여 아마존 상품 리뷰 가져오기 |
